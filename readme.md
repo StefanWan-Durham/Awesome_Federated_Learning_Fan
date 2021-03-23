@@ -1,5 +1,5 @@
 # ICLR
-- FEDERATED LEARNING WITH MATCHED AVERAGING
+- [FEDERATED LEARNING WITH MATCHED AVERAGING](https://openreview.net/pdf?id=BkluqlSFDS)
   - Federated learning allows edge devices to collaboratively learn a shared model
 while keeping the training data on device, decoupling the ability to do model
 training from the need to store the data in the cloud. We propose the Federated
@@ -9,4 +9,5 @@ matching and averaging hidden elements (i.e. channels for convolution layers;
 hidden states for LSTM; neurons for fully connected layers) with similar feature
 extraction signatures. Our experiments indicate that FedMA not only outperforms
 popular state-of-the-art federated learning algorithms on deep CNN and LSTM
-architectures trained on real world datasets, but also reduces the overall communication burden.1 
+architectures trained on real world datasets, but also reduces the overall communication burden.
+- 
