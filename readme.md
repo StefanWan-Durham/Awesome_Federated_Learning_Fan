@@ -25,3 +25,19 @@ of federated learning with personalization and few-shot classification, showing 
 allowing the relaxation to task-global privacy from the more commonly studied
 notion of local privacy leads to dramatically increased performance in recurrent
 neural language modeling and image classification.  
+- [ON THE CONVERGENCE OF FEDAVG ON NON-IID DATA](https://openreview.net/pdf?id=HJxNAnVtDS)
+  - Federated learning enables a large amount of edge computing devices to jointly
+learn a model without data sharing. As a leading algorithm in this setting, Federated
+Averaging (FedAvg) runs Stochastic Gradient Descent (SGD) in parallel on a small
+subset of the total devices and averages the sequences only once in a while. Despite
+its simplicity, it lacks theoretical guarantees under realistic settings. In this paper,
+we analyze the convergence of FedAvg on non-iid data and establish a convergence
+rate of O(1T) for strongly convex and smooth problems, where T is the number of
+SGDs. Importantly, our bound demonstrates a trade-off between communicationefficiency and convergence rate. As user devices may be disconnected from
+the server, we relax the assumption of full device participation to partial device
+participation and study different averaging schemes; low device participation rate
+can be achieved without severely slowing down the learning. Our results indicates
+that heterogeneity of data slows down the convergence, which matches empirical
+observations. Furthermore, we provide a necessary condition for FedAvg on
+non-iid data: the learning rate η must decay, even if full-gradient is used; otherwise,
+the solution will be Ω(η) away from the optimal. 
