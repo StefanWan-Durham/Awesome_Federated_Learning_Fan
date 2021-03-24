@@ -55,6 +55,8 @@ Our framework is robust to data heterogeneity,
 addressing the slow convergence problem traditional federated learning methods face when the
 data is non-i.i.d. across clients. We test the theory empirically and find substantial performance
 gains over baselines.
+- [Adaptive Federated Optimization ](https://openreview.net/pdf?id=LkFG3lB13U5)
+  - Federated learning is a distributed machine learning paradigm in which a large number of clients coordinate with a central server to learn a model without sharing their own training data. Standard federated optimization methods such as Federated Averaging (FedAvg) are often difficult to tune and exhibit unfavorable convergence behavior. In non-federated settings, adaptive optimization methods have had notable success in combating such issues. In this work, we propose federated versions of adaptive optimizers, including Adagrad, Adam, and  Yogi, and analyze their convergence in the presence of heterogeneous data for general non-convex settings. Our results highlight the interplay between client heterogeneity and communication efficiency. We also perform extensive experiments on these methods and show that the use of adaptive optimizers can significantly improve the performance of federated learning. 
 # ICLR 2021
 - [END-TO-END ON-DEVICE FEDERATED LEARNING: A CASE STUDY](https://openreview.net/pdf?id=VyDYSMx1sFU)
   -   With the development of computation capability in devices, companies are eager
