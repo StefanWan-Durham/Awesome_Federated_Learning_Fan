@@ -43,6 +43,18 @@ non-iid data: the learning rate η must decay, even if full-gradient is used; ot
 the solution will be Ω(η) away from the optimal. 
 - [Federated Continual Learning with Weighted Inter-client Transfer](https://openreview.net/pdf?id=xWr8qQCJU3m)
   - There has been a surge of interest in continual learning and federated learning, both of which are important in deep neural networks in real-world scenarios. Yet little research has been done regarding the scenario where each client learns on a sequence of tasks from private local data stream. This problem of federated continual learning poses new challenges to continual learning, such as utilizing knowledge from other clients, while preventing interference from irrelevant knowledge. To resolve these issues, we propose a novel federated continual learning framework, Weighted Inter-client Transfer (FedWeIT), which decomposes the network weights into global federated parameters and sparse task-specific parameters, and each client receives selective knowledge from other clients by taking a weighted combination of their task-specific parameters. FedWeIT minimizes interference between incompatible tasks, and also allows positive knowledge transfer across clients during learning. We validate our FedWeIT against existing federated learning and continual learning methods under varying degree of task similarity across clients, and our model significantly outperforms them with large reduction in the communication cost.
+- [Federated Residual Learning](https://arxiv.org/pdf/2003.12880.pdf)
+  -  We study a new form of federated learning where
+the clients train personalized local models and
+make predictions jointly with the server-side
+shared model. Using this new federated learning
+framework, the complexity of the central shared
+model can be minimized while still gaining all the
+performance benefits that joint training provides.
+Our framework is robust to data heterogeneity,
+addressing the slow convergence problem traditional federated learning methods face when the
+data is non-i.i.d. across clients. We test the theory empirically and find substantial performance
+gains over baselines.
 # ICLR 2021
 - [END-TO-END ON-DEVICE FEDERATED LEARNING: A CASE STUDY](https://openreview.net/pdf?id=VyDYSMx1sFU)
   -   With the development of computation capability in devices, companies are eager
