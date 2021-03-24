@@ -41,3 +41,22 @@ that heterogeneity of data slows down the convergence, which matches empirical
 observations. Furthermore, we provide a necessary condition for FedAvg on
 non-iid data: the learning rate η must decay, even if full-gradient is used; otherwise,
 the solution will be Ω(η) away from the optimal. 
+- [Federated Continual Learning with Weighted Inter-client Transfer](https://openreview.net/pdf?id=xWr8qQCJU3m)
+  - There has been a surge of interest in continual learning and federated learning, both of which are important in deep neural networks in real-world scenarios. Yet little research has been done regarding the scenario where each client learns on a sequence of tasks from private local data stream. This problem of federated continual learning poses new challenges to continual learning, such as utilizing knowledge from other clients, while preventing interference from irrelevant knowledge. To resolve these issues, we propose a novel federated continual learning framework, Weighted Inter-client Transfer (FedWeIT), which decomposes the network weights into global federated parameters and sparse task-specific parameters, and each client receives selective knowledge from other clients by taking a weighted combination of their task-specific parameters. FedWeIT minimizes interference between incompatible tasks, and also allows positive knowledge transfer across clients during learning. We validate our FedWeIT against existing federated learning and continual learning methods under varying degree of task similarity across clients, and our model significantly outperforms them with large reduction in the communication cost.
+# ICLR 2021
+- [END-TO-END ON-DEVICE FEDERATED LEARNING: A CASE STUDY](https://openreview.net/pdf?id=VyDYSMx1sFU)
+  -   With the development of computation capability in devices, companies are eager
+to utilize ML/DL methods to improve their service quality. However, with traditional Machine Learning approaches, companies need to build up a powerful
+data center to collect data and perform centralized model training, which turns
+out to be expensive and inefficient. Federated Learning has been introduced to
+solve this challenge. Because of its characteristics such as model-only exchange
+and parallel training, the technique can not only preserve user data privacy but
+also accelerate model training speed. In this paper, we introduce an approach to
+end-to-end on-device Machine Learning by utilizing Federated Learning. We validate our approach with an important industrial use case, the wheel steering angle
+prediction in the field of autonomous driving. Our results show that Federated
+Learning can significantly improve the quality of local edge models and reach the
+same accuracy level as compared to the traditional centralized Machine Learning approach without its negative effects. Furthermore, Federated Learning can
+accelerate model training speed and reduce the communication overhead, which
+proves that this approach has great strength when deploying ML/DL components
+to real-world embedded systems.
+- 
