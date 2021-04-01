@@ -1,6 +1,6 @@
 
-# 2021_04_01
-## Update Parameters
+# 2021_04_01 (Focus on: Parameters Update)
+
 - [Federated Learning with Matched Averaging](https://openreview.net/pdf?id=BkluqlSFDS)
   -  Federated learning allows edge devices to collaboratively learn a shared model while keeping the training data on device, decoupling the ability to do model training from the need to store the data in the cloud. We propose Federated matched averaging (FedMA) algorithm designed for federated learning of modern neural network architectures e.g. convolutional neural networks (CNNs) and LSTMs. FedMA constructs the shared global model in a layer-wise manner by matching and averaging hidden elements (i.e. channels for convolution layers; hidden states for LSTM; neurons for fully connected layers) with similar feature extraction signatures. Our experiments indicate that FedMA not only outperforms popular state-of-the-art federated learning algorithms on deep CNN and LSTM architectures trained on real world datasets, but also reduces the overall communication burden.
   
@@ -17,7 +17,7 @@ In this paper, we propose two ways to reduce the uplink communication costs: str
 - [Adaptive Personalized Federated Learning](https://arxiv.org/pdf/2003.13461)
   - Abstract: Investigation of the degree of personalization in federated learning algorithms has shown that only maximizing the performance of the global model will confine the capacity of the local models to personalize. In this paper, we advocate an adaptive personalized federated learning (APFL) algorithm, where each client will train their local models while contributing to the global model. We derive the generalization bound of mixture of local and global models, and find the optimal mixing parameter. We also propose a communication-efficient optimization method to collaboratively learn the personalized models and analyze its convergence in both smooth strongly convex and nonconvex settings. The extensive experiments demonstrate the effectiveness of our personalization schema, as well as the correctness of established generalization theories.
  
-# 2020-03
+# 2020-03(Focus on: Federated Learning and Meta-Learning)
 ## ICLR2020
 
 - [DIFFERENTIALLY PRIVATE META-LEARNING](https://openreview.net/pdf?id=rJgqMRVYvr)
