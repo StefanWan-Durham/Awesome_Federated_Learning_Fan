@@ -24,8 +24,8 @@ In this paper, we propose two ways to reduce the uplink communication costs: str
   - Abstract: Investigation of the degree of personalization in federated learning algorithms has shown that only maximizing the performance of the global model will confine the capacity of the local models to personalize. In this paper, we advocate an adaptive personalized federated learning (APFL) algorithm, where each client will train their local models while contributing to the global model. We derive the generalization bound of mixture of local and global models, and find the optimal mixing parameter. We also propose a communication-efficient optimization method to collaboratively learn the personalized models and analyze its convergence in both smooth strongly convex and nonconvex settings. The extensive experiments demonstrate the effectiveness of our personalization schema, as well as the correctness of established generalization theories.
  
 - [Optimal Client Sampling for Federated Learning](https://arxiv.org/pdf/2010.13723.pdf) 
-  - keyword: In each communication round, all participated clients compute their updates, but only the ones with “important” updates communicate back to the master. We show that importance can be measured using only the norm of the update and we give a formula for optimal client participation.
-
+  - keyword: In each communication round, all participated clients compute their updates, but only the ones with “important” updates communicate back to the master. 
+  
 - [Improving Federated Learning Personalization via Model Agnostic Meta Learning](https://arxiv.org/pdf/1909.12488)
   - keyword: meta-learning, Non-iid
 
