@@ -1,6 +1,18 @@
 
 # 2021-04-01 (Keyword: Parameters Update, Video)
+- [A Distributed Video Analytics Architecture Based on Edge-Computing and Federated Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8890415)
+  - The current model of sending video streams to the cloud for processing is facing many challenges such as latency and privacy.
+  - We introduce a distributed video analytics architecture based on edge-computing and the newly emerging federated learning.
 
+- [Federated Learning with Matched Averaging](https://openreview.net/pdf?id=BkluqlSFDS)
+  - keyword: LSTM 
+  - We propose Federated matched averaging (FedMA) algorithm designed for federated learning of modern neural network architectures e.g. convolutional neural networks (CNNs) and <u>LSTMs</u>.
+
+- [Improving Federated Learning Personalization via Model Agnostic Meta Learning](https://arxiv.org/pdf/1909.12488)
+  - keyword: meta-learning, Non-iid
+ 
+- [Efficient and Privacy Preserving Video Transmission in 5G-Enabled IoT Surveillance Networks: Current Challenges and Future Directions](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9299471)
+  - keyword: The guildline for Video Summarizaiton, Federated Learning(only one mention!)
 
 - [Federated learning with non-iid data](https://arxiv.org/pdf/1806.00582.pdf)
   - keyword: Non-iid, Address the issues of accuracy reduction when train Non-iid data in federated setting. 
@@ -12,15 +24,6 @@
 - [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/pdf/1910.07796)
   - keyword: We add a penalty term to the loss function, compelling all local models to converge to a shared optimum.  
 
-- [A Distributed Video Analytics Architecture Based on Edge-Computing and Federated Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8890415)
-  - The current model of sending video streams to the cloud for processing is facing many challenges such as latency and privacy.
-  - We introduce a distributed video analytics architecture based on edge-computing and the newly emerging federated learning.
-  
-
-- [Federated Learning with Matched Averaging](https://openreview.net/pdf?id=BkluqlSFDS)
-  - keyword: LSTM 
-  - We propose Federated matched averaging (FedMA) algorithm designed for federated learning of modern neural network architectures e.g. convolutional neural networks (CNNs) and <u>LSTMs</u>.
-
 
 - [Adaptive Federated Optimization ](https://openreview.net/pdf?id=LkFG3lB13U5)
   - keyword: Non-iid,  adaptive optimization methods
@@ -30,19 +33,12 @@
   - Keyword: Address the model can siginificantly drop due to the Non-iid data.
   - Method: Client performs Federated Gradient Descent; Server performs Federated Averaging 
   
-
-- [Adaptive Personalized Federated Learning](https://arxiv.org/pdf/2003.13461)
-  - Abstract: Investigation of the degree of personalization in federated learning algorithms has shown that only maximizing the performance of the global model will confine the capacity of the local models to personalize. In this paper, we advocate an adaptive personalized federated learning (APFL) algorithm, where each client will train their local models while contributing to the global model. We derive the generalization bound of mixture of local and global models, and find the optimal mixing parameter. We also propose a communication-efficient optimization method to collaboratively learn the personalized models and analyze its convergence in both smooth strongly convex and nonconvex settings. The extensive experiments demonstrate the effectiveness of our personalization schema, as well as the correctness of established generalization theories.
- 
 - [Optimal Client Sampling for Federated Learning](https://arxiv.org/pdf/2010.13723.pdf) 
   - keyword: In each communication round, all participated clients compute their updates, but only the ones with “important” updates communicate back to the master. 
   
-- [Improving Federated Learning Personalization via Model Agnostic Meta Learning](https://arxiv.org/pdf/1909.12488)
-  - keyword: meta-learning, Non-iid
-  - 
-- [Efficient and Privacy Preserving Video Transmission in 5G-Enabled IoT Surveillance Networks: Current Challenges and Future Directions](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9299471)
-  - keyword: Video Summarizaiton, Federated Learning
-  - Vision sensors in Internet of Things (IoT)-connected smart cities play a vital role in the exponential growth of video data, thereby making its analysis and storage comparatively tough and challenging. Those sensors continuously generate data for 24 hours, which requires huge storage resources, dedicated networks for sharing with data centers, and most importantly, it makes browsing, retrieval, and event searching a difficult and time-consuming job. Video summarization (VS) is a promising direction toward a solution to these problems by analyzing the visual contents acquired from a vision sensor and prioritizing them based on events, saliency, person's appearance, and so on. However, the current VS literature still lacks focus on resource-constrained devices that can summarize data over the edge and upload it to data repositories efficiently for instant analysis. Therefore, in this article, we carry out a survey of functional VS methods to understand their pros and cons for resource-constrained devices, with the ambition to provide a compact tutorial to the community of researchers in the field. Further, we present a novel saliency-aware VS framework, incorporating 5G-enabled IoT devices, which keeps only important data, thereby saving storage resources and providing representative data for immediate exploration. Keeping privacy of data as a second priority, we intelligently encrypt the salient frames over resource-constrained devices before transmission over the 5G network. The reported experimental results show that our proposed framework has additional benefits of faster transmission (1.8~13.77 percent frames of a lengthy video are considered for transmission), reduced bandwidth, and real-time processing compared to state-of-the-art methods in the field. 
+
+ 
+
 
 
 # 2020-03-24(Keyword: Federated Learning, Meta-Learning)
