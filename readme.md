@@ -16,6 +16,7 @@
   
 
 - [Federated Learning with Matched Averaging](https://openreview.net/pdf?id=BkluqlSFDS)
+  - keyword: LSTM 
   - We propose Federated matched averaging (FedMA) algorithm designed for federated learning of modern neural network architectures e.g. convolutional neural networks (CNNs) and <u>LSTMs</u>.
   
 - [Federated Learning: Strategies for Improving Communication Efficiency](https://arxiv.org/pdf/1610.05492)
