@@ -7,7 +7,7 @@
  - [FedCD: Improving Performance in non-IID Federated Learning](https://arxiv.org/pdf/2006.09637)
    - keyword: We present a novel approach, FedCD, which clones and deletes models to dynamically group devices with similar data. 
  
- - [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/pdf/1910.07796)
+- [Overcoming Forgetting in Federated Learning on Non-IID Data](https://arxiv.org/pdf/1910.07796)
   - keyword: We add a penalty term to the loss function, compelling all local models to converge to a shared optimum.  
 
 - [A Distributed Video Analytics Architecture Based on Edge-Computing and Federated Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8890415)
