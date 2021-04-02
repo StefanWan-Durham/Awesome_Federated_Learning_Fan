@@ -1,5 +1,8 @@
 
 # 2021-04-01 (Keyword: Parameters Update, Video)
+- [Federated learning with non-iid data](https://arxiv.org/pdf/1806.00582.pdf)
+  - keyword: Non-iid, Address the issues of accuracy reduction when train Non-iid data in federated setting. 
+  - dataset: CIFAR-10 dataset
 
 - [A Distributed Video Analytics Architecture Based on Edge-Computing and Federated Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8890415)
   - The prevalence of high definition video cameras in our environments provides countless types of essential services. The current model of sending video streams to the cloud for processing is facing many challenges such as latency and privacy. Delegating workloads of the cloud to the nearer Edge computing nodes is becoming the trend, which offers very low latency video analytics services. However, it opens up new challenges such as the issue of coordination between edge nodes and the fragmentation of their object detection models. In this paper, we introduce a distributed video analytics architecture based on edge-computing and the newly emerging federated learning. Its design allows for real-time and distributed object detection, in addition to a privacy-preserving scheme for detection model updating. A use-case scenario of a road surveillance system is given to support the proposed architecture. Finally, Challenges and future work are pointed out. 
